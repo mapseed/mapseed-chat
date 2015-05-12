@@ -1,0 +1,20 @@
+{
+  "name": "council-chat",
+  "description": "chat about whatever the seattle city council is up to",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/sethvincent/council-chat.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "bundle": "sheetify deps.css > deps.bundle.css",
+    "start": "npm run bundle && jekyll serve -w"
+  },
+  "dependencies": {
+    "csskit": "^1.1.0",
+    "normalize.css": "^3.0.3"
+  },
+  "devDependencies": {
+    "sheetify": "^2.0.0"
+  }
+}

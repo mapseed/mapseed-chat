@@ -1,0 +1,6 @@
+title: Seattle CouncilChat
+description: chat about whatever the seattle city council is up to
+permalink: /posts/:title
+baseurl: ''
+markdown: redcarpet
+exclude: [node_modules, tmp]
