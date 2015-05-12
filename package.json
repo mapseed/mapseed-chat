@@ -3,7 +3,7 @@
   "description": "chat about whatever the seattle city council is up to",
   "version": "0.0.0",
   "repository": {
-    "url": "git://github.com/sethvincent/council-chat.git"
+    "url": "git://github.com/seattleio/councilchat.git"
   },
   "main": "index.js",
   "scripts": {
