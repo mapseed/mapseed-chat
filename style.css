@@ -52,18 +52,15 @@ main h6 {
 a,
 a:visited {
   text-decoration: none;
-  color: var(--blue);
   -webkit-transition: all .3s;
   transition: all .3s;
 }
 
-a:hover {
-  color: color(var(--blue) shade(20%));
-}
+a:hover {}
 
 hr {
   border: 0px;
-  border-top: 3px solid var(--gray);
+  border-top: 3px solid #efefea;
   margin-bottom: 20px;
   clear: both;
 }
