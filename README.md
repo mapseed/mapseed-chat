@@ -2,6 +2,8 @@
 
 Seattle CouncilChat is a simple way to discuss the meetings of the Seattle City Council as they happen.
 
+> [councilchat.seattle.io](http://councilchat.seattle.io)
+
 ## Getting started with developing Seattle CouncilChat
 
 This is basically just html with a couple of embedded widgets right now. :shrug:
