@@ -18,6 +18,10 @@ After that you can run `npm start` to start a development server that watches th
 
 Read more about contributing to Seattle CouncilChat in [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## Todo list
+
+See the [issues queue of this project](https://github.com/seattleio/councilchat/issues) for an up to date todo list.
+
 ## Code of Conduct
 
 Live chat is scary if people are jerks. Don't be a jerk. Read the code of conduct: [CONDUCT.md](CONDUCT.md).
