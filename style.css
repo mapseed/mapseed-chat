@@ -1,5 +1,7 @@
 html,
 body {
+  /*   display: grid; */
+  /*   grid-template-rows: 10% 90%; */
   padding: 0px;
   margin: 0px;
   height: 100%;
@@ -36,6 +38,10 @@ h6 {
   margin: 0px;
   line-height: 1.3;
 }
+
+/* main {
+   grid-row-start: 2;
+   } */
 
 main h1,
 main h2 {
@@ -89,6 +95,8 @@ hr {
 
 header {
   margin: 35px 0px 30px 0px;
+  /*   justify-self: center; */
+  /*   grid-row-start: 2; */
 }
 
 h1.site-title {
@@ -115,11 +123,45 @@ footer {
 }
 
 
+#title {
+  /*   justify-self: stretch; */
+  width: 100%;
+  grid-column-start: 2;
+  grid-column-end: span 3;
+}
 #video {
-  
+  justify-self: stretch;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  width: 100%;
+  height: 60vh;
+}
+iframe {
+  width: 100%;
+  height: 60vh;
+}
+
+#help {
+  justify-self: start;
+  /*   grid-column-start: 2; */
+  grid-column-start: 2;
+  grid-column-end: span 3;
+  /*   grid-column-end: 3; */
+  grid-row-start: 4;
+  width: 100%;
+  height: 100%;
+  font-size: 80%;
+  text-align: left;
+  margin: 0 0 30px 0;
 }
 
 #about {
+  justify-self: start;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  width: 100%;
+  height: 100%;
   font-size: 80%;
   text-align: center;
   margin: 0 0 30px 0;
@@ -136,35 +178,40 @@ footer {
 */
 
 .container {
-  width: 90%;
-  margin: 0px auto;
+  /*   grid-row-start: 2; */
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 10% 60% 15% 15%;
+  width: 100%;
+  padding: 0 40px;
+  /*   margin: 0px auto; */
 }
 
-@media (min-width: 700px) {
-  .container {
-    width: 80%;
-  }
-  
-  #video {
-    width: 50%;
-    float: left;
-  }
-  
-  #video iframe {
-    width: 100%;
-  }
+/* @media (min-width: 700px) {
+   .container {
+   width: 80%;
+   }
 
-  #about {
-    width: 50%;
-    float: left;
-  }
+   #video {
+   width: 50%;
+   float: left;
+   }
 
-  #chat {
-    width: 45%;
-    float: right;
-  }
-}
+   #video iframe {
+   width: 100%;
+   }
 
+   #about {
+   width: 50%;
+   float: left;
+   }
+
+   #chat {
+   width: 45%;
+   float: right;
+   }
+   }
+ */
 
 
 /* clearfix */

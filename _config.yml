@@ -1,5 +1,5 @@
-title: Hey Duwamish Chat Channel
-description: chat about whatever our Hey Duwamish project is doing
+title: MapSeed Chat Channel
+description: chat about whatever our MapSeed project is doing
 permalink: /posts/:title
 baseurl: ''
 markdown: redcarpet

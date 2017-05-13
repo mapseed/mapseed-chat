@@ -1,5 +1,5 @@
-# Duwamish Chat Channel
+# MapSeed Chat Channel
 
-Duwamish Chat Channel is a simple way to discuss the current issues for the smartercleanup project
+MapSeed Chat Channel is a simple way to discuss the current issues surrounding or collective mapping project.
 
-> [chat.heyduwamish.org](http://chat.heyduwamish.org)
+> [chat.mapseed.org](http://chat.mapseed.org)

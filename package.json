@@ -1,9 +1,9 @@
 {
-  "name": "council-chat",
-  "description": "chat about whatever the seattle city council is up to",
+  "name": "mapseed-chat",
+  "description": "chat about whatever mapseed is up to",
   "version": "0.0.0",
   "repository": {
-    "url": "git://github.com/seattleio/councilchat.git"
+    "url": "git://github.com/mapseed/mapseed-chat.git"
   },
   "main": "index.js",
   "scripts": {
